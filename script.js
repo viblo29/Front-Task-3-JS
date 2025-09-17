@@ -23,7 +23,7 @@ console.log(allowedFriendsNum);
 const allSnacks = snacks1.concat(snacks2);
 console.log(allSnacks);
 
-if (allowedFriendsNum === 0) {
+if (!allowedFriendsNum) {
     console.log("Movie night is canceled!");
 } else {
     console.log(`We have ${allowedFriendsNum} friends coming: ${allowedNames.join(', ')}`);
